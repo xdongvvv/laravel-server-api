@@ -1,0 +1,27 @@
+{
+    "name": "xdong/laravel-server-api",
+    "description": "封装微服务api请求",
+    "keywords": ["server-api", "laravel"],
+    "require-dev": {
+        "laravel/framework": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "xdong",
+            "email": "xdongvvv@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3^"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xdongvvv\\ServerApi\\ServerApiProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
